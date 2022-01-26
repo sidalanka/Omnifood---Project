@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Max-width & rem</title>
+
+    <style>
+      /* Max-width and rem property  */
+
+      .test {
+        background-color: aquamarine;
+        width: 1000px;
+
+        /* The max-width CSS property sets the maximum width of an element. It prevents the used value of the width property from becoming larger than the value specified by max-width. */
+        max-width: 1000px;
+
+        /* Default: 1rem = 16px -> 50rem = 800px  */
+        max-width: 50rem;
+        padding: 4rem;
+        color: #fff;
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="test">Test</div>
+  </body>
+</html>
